@@ -4,7 +4,7 @@ from sqlite3 import Error
 from threading import Lock, current_thread
 import telebot
 from telebot import types
-bot = telebot.TeleBot("6807556217:AAETznOc9iRwu_TfqMbyzw2pGj3xiLduAcc")
+bot = telebot.TeleBot("token")
 
 class Database:
     def __init__(self, db_file):
